@@ -1,0 +1,52 @@
+/**Fonts**/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body{
+    background: #3a6186;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #89253e, #3a6186);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #89253e, #3a6186); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.input{
+    border-radius: 0;
+}
+.submitBtn{
+    border-radius: 20px;
+    margin: 1rem 8rem;
+}
+.card{
+    border-radius: 0;
+    height: 100%;
+    background: #4CA1AF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #C4E0E5, #4CA1AF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #C4E0E5, #4CA1AF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.card-header{
+    border-bottom: none;
+}
+.card-header > h3{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.card-body > p{
+    font-family: 'Roboto Mono', monospace;
+}
+.card-body > p > b{
+    font-family: 'Ubuntu', sans-serif;
+}
+.btn{
+    border-radius: 20px;
+}
+.modal-title{
+    margin-left: 4rem;
+    font-size: 1.5rem;
+}
+.modal-content, .modal-header, .modal-footer{
+    border: none;
+    border-radius: 0;
+}
+.title, .info{
+    font-family: 'Open Sans', sans-serif;
+}
